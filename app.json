@@ -1,9 +1,11 @@
 {
   "expo": {
-    "name": "letspost",
-    "slug": "letspost",
+    "name": "LetsPost",
+    "slug": "Letspost",
+    "description": "This is a instagram clone where users can post thier photos with captions and other users can comment on them.",
     "version": "1.0.0",
     "orientation": "portrait",
+    "userInterfaceStyle": "light",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
@@ -17,16 +19,18 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.imneerajKumar.lets-post",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.imneerajKumar.lets_post",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+      },
+      "permissions": ["CAMERA", "WRITE_EXTERNAL_STORAGE", "READ_EXTERNAL_STORAGE"]
     }
   }
 }
